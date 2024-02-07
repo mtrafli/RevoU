@@ -1,9 +1,142 @@
 <!DOCTYPE html>
 <html>
-  </head>
+  <head>
     <title>Task RevoU Fundamental Course</title>
+    <style>
+      table, th, td {
+        border: 1px solid black
+      }
+    </style>
   </head>
   <body>
-    <h1>Hello World</h1>
+    <h1 style="color:black;" >RevoU Fundamental Course</h1>
+      <p> Ini baris 1 </p>
+      <p> Ini baris 2 </p>
+      Ini baris 3
+      <br>
+      Ini baris 4
+      <p> Berikut jenis bahasa pemrograman untuk dipelajari: </p>
+      <ul type="square"> 
+        <li> Java Script </li>
+        <li> PHP </li>
+        <li> Java </li>
+        <li> Python </li>
+        <li> Kotlin </li>
+      </ul>
+      <p> Berikut jenis bahasa pemrograman untuk dipelajari: </p>
+      <ol type="A"> 
+        <li> Java Script </li>
+        <li> PHP </li>
+        <li> Java </li>
+        <li> Python </li>
+        <li> Kotlin </li>
+      </ol>
+      <p> Ranking Sepakbola FIFA </p>
+      <table>
+        <tr>
+          <th> Nomor </th>
+          <th> Negara </th>
+          <th> Ranking Dunia </th>
+          <th rowspan="5"> FIFA </th>
+        </tr>
+        <tr>
+          <td> <center> 1 </center> </td>
+          <td> <center> Indonesia </center> </td>
+          <td> <center> 146 </center> </td>
+        </tr>
+        <tr>
+          <td> <center> 2 </center> </td>
+          <td> <center> Hongkong </center> </td>
+          <td> <center> 150 </center> </td>
+        </tr>
+        <tr>
+          <td> <center> 3 </center> </td>
+          <td> <center> Singapore </center> </td>
+          <td> <center> 156 </center> </td>
+        </tr>
+        <tr>
+          <td colspan="3"> 
+            <center> Rangking by FIFA </center>
+          </td>
+        </tr>
+      </table>
+
+      <p> Mobil Hypercar </p>
+      <img src="Ferrari.jpg" alt="Ferrari" >
+      <img src="https://wallpapercave.com/wp/wp2642163.jpg" alt="Lamborgini" width="400" height="200" >
+     
+      <p> 
+      <a href="https://www.google.com" target="_blank">  Link Google </a>
+      </p>
+
+      <p> Ranking Sepakbola FIFA</p>
+      <p>
+        <a href="#Indonesia"> Klik untuk cari Indonesia </a>
+      </p>
+      <ol type="1"> 
+        <li> Hong Kong </li>
+        <li> Lesotho </li>
+        <li> Turkmenistan </li>
+        <li> Philippines </li>
+        <li> Lithuania </li>
+        <li> The Gambia </li>
+        <li> Latvia </li>
+        <li> Malaysia </li>
+        <li> Nicaragua </li>
+        <li> Kuwait </li>
+        <li> Solomon Islands </li>
+        <li> Faroe Islands </li>
+        <li> Antigua dan B. </li>
+        <li> Suriname </li>
+        <li> Etiopia </li>
+        <li> Botswana </li>
+        <li id="Indonesia"> Indonesia </li>
+        <li> St. Kitts/Nevis </li>
+        <li> Lesotho </li>
+        <li> eSwatini </li>
+
+     <p> Formulir </p>
+     <form action="" method="post">
+      <fieldset>
+        <legend> Data Diri </legend>
+        <label for="nama"> Nama </label>  
+        <input type="text" name="nama">
+        <br>
+        <label for="umur"> Umur </label>  
+        <input type="number" name="umur" min="18" max="30">
+        <br>
+        <label for="perusahaan"> Perusahaan Saat Ini </label>  
+        <input type="text" name="perusahaan">
+        <br>
+        <label for="email"> Email </label>  
+        <input type="email" name="email">
+        <br>
+        <label for="password"> Password </label>  
+        <input type="password" name="password" required>
+      </fieldset>
+      <fieldset>
+        <legend> Lamaran Pekerjaan </legend>
+        Divisi Yang Dilamar 
+        <select>
+          <option> HR </option>
+          <option> Marketing </option>
+          <option> Operational </option>
+          <option> Sales </option>
+        </select>
+      <p> Tulislah motvasi anda melamar pekerjaan ini. </p>
+      <textarea rows="8" cols="64"> Ketik disini </textarea>
+      </fieldset>
+      <br>
+      Saya telah membaca dan menyetujui syarat yang berlaku. <input type="checkbox"> 
+      <br>
+      Saya telah berumur 18 tahun. <input type="radio">
+      <br>
+      <p> <input type="submit" value="Submit"> </p>
+      </form>
+
+
+
+
+      <!-- Ini komentar -->
   </body>
 </html>
