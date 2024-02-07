@@ -1,0 +1,14 @@
+table, th, td {
+  border: 1px solid black
+}
+body {
+    background-color: rgba(3, 80, 245, 0.568);
+}
+h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35pt;
+    text-align: center;
+}
+p {
+    font-size: 12pt;
+}
